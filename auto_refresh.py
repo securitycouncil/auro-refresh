@@ -7,14 +7,16 @@ print("börjar om 10 sec")
 def auto_start():
 	for i in range(5):
 	    print("20 min och 10 sec till nästa f5")
+		print("click")
+		pyautogui.leftClick(x=moveToX, y=moveToY)# moveToX ska du ändra med x positionen för datormusen och moveToY ska du ändra med y positionen för datormusen
 	    time.sleep(10)
 	    pyautogui.hotkey("f5")
 	    print("f5")
+		time.sleep(45)
 		print("click")
-		pyautogui.leftClick(x=moveToX, y=moveToY)
+		pyautogui.leftClick(x=moveToX, y=moveToY)# moveToX ska du ändra med x positionen för datormusen och moveToY ska du ändra med y positionen för datormusen
 	    time.sleep(1200)
 
 
 while True:
 	auto_start()
-
