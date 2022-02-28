@@ -1,7 +1,7 @@
 #pip install pyautogui to make the code work
 import pyautogui
 import time 
-print("code körs 73 gånger den ska vara uppe i 24 timmar sen starta den om sig själv igen") 
+print("code körs 5 gånger starta den om sig själv igen") 
 print("börjar om 10 sec")
 
 def auto_start():
