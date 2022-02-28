@@ -17,7 +17,7 @@ def auto_start():
 		pyautogui.leftClick(x=moveToX, y=moveToY)# moveToX ska du ändra med x positionen för datormusen och moveToY ska du ändra med y positionen för datormusen
 	    time.sleep(2100)
 	    print("5 min till nästa click/refresh")
-	    time.sleep(2400)
+	    time.sleep(300)
 
 
 while True:
