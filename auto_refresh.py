@@ -5,11 +5,13 @@ print("code körs 73 gånger den ska vara uppe i 24 timmar sen starta den om sig
 print("börjar om 10 sec")
 
 def auto_start():
-	for i in range(73):
+	for i in range(5):
 	    print("20 min och 10 sec till nästa f5")
 	    time.sleep(10)
 	    pyautogui.hotkey("f5")
 	    print("f5")
+		print("click")
+		pyautogui.leftClick(x=moveToX, y=moveToY)
 	    time.sleep(1200)
 
 
